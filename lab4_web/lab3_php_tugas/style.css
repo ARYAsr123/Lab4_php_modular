@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 30px;
+  color:#000b6d;
+  text-align: center;
+  margin: auto;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  text-align: center;
+}
+
+table th {
+  padding: 12px;
+  text-align: center;
+  background-color: #000b6d;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+img {
+  width: 60px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.main {
+  text-align: center;
+}
+
+button{
+  margin: 0 auto;
+  display: inline-block;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0043a8;
+  color: #FFFFFF;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+  background-color: #000b6d;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  margin-bottom: 20px;
+  background-color: #010844;
+  overflow: hidden;
+  width: 100%;
+}
+nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #00039c;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  background-color: #f1f1f1;
+  padding: 50px 20px;
+  padding-bottom: 80px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.content p {
+  margin: auto;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+footer {
+  margin-top: 20px;
+  clear: both;
+  text-align: center;
+  background: #010844;
+  padding: 15px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: "Raleway SemiBold", sans-serif;
+}
+
+.tambah {
+  color: white;
+  height: auto;
+  margin: 0 auto;
+  background: #010844;
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-right: 30px;
+  padding: auto;
+}
+
+.form {
+  padding: 20px;
+  background-color: #2a72ba;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+  text-align: left;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #0047cc;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #15008b;
+}
